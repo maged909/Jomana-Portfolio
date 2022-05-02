@@ -436,15 +436,7 @@
 
 	/* HERO
 	================================================== */
-	.hero{
-		background:none;
-		background-color:#E2E2E2;
-		text-align: center;
-	}
-	.hero img {
-		position: relative;
-    	left: 20px;
-	}
+	
 	.hero .visible-xxs + .btn {
 		margin-top: 10px;
 	}
@@ -498,4 +490,20 @@
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
 	}
+	.hero{
+		background:none;
+		background-color:#E2E2E2;
+	}
+}
+
+@media only screen and (max-width : 279px) {
+.hero{
+	background:none;
+	background-color:#E2E2E2;
+	text-align: center;
+}
+.hero img {
+	position: relative;
+	left: 20px;
+}
 }
